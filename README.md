@@ -12,6 +12,13 @@ UCI HAR Dataset - Data files downloaded from "https://d396qusza40orc.cloudfront.
 * tidydata.txt - Tidy data output based on Coursera project assignment
 * README.md - Mark down files to provide high level information on the repository objects. 
 
+## run_Analysis Performs the below
+Merges the training and the test sets to create one data set. :- Load data to table and use command cbind,rbind and combine training and test data sets
+Extracts only the measurements on the mean and standard deviation for each measurement. :- Use grep command to get column indexes for variable name contains "mean()" or "std()"
+Uses descriptive activity names to name the activities in the data set. :- Added new column activity description as factor using merge() and grep()
+Appropriately labels the data set with descriptive variable names. :- Replace with descriptive names using gsub()
+From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject : - Used aggregate() function and order by to arrange in sequence
+
 ## Execution
 
 1. Clone this repo

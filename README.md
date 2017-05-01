@@ -17,7 +17,6 @@ UCI HAR Dataset - Data files downloaded from "https://d396qusza40orc.cloudfront.
 1. Clone this repo
 2. Download the Data set and R script and place it in working directory. 
 3. Execute the below commands
-
-### source(run_analysis.R)
-### run_analysis()
-### head -3 "tidydata.txt"
+*source(run_analysis.R)
+*run_analysis()
+*head(tidy_data,3)

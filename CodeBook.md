@@ -85,31 +85,3 @@ var_names var_meaning
 * frequencyBodyAccelerometerJerkMagnitude-std(): Standard deviation of Jerk signal from accelerometer - magnitude (AVERAGE)
 * frequencyBodyGyroscopeMagnitude-std(): Standard deviation of signal from gyroscope - magnitude (AVERAGE)
 * frequencyBodyGyroscopeJerkMagnitude-std(): Standard deviation of Jerk signal from gyroscope - magnitude (AVERAGE)
-
-
-Extract columns with mean and standard deviation values available in merged data 
-
-## Define Activity description on merged training and test data
-
-Define Activity description on the merged data 
-
-Example 
-
-* merge_mean_std<-merge(merge_mean_std,activityL,by="ActivityID",all.X=TRUE)
-
-## Label data with descriptive variable name
-
-Rename the column name on merged data and replace it with meaningful name
-
-Example
-* names(merge_mean_std)<-gsub("Acc", "Accelerometer", names(merge_mean_std))
-
-## Create Tidy data set
-
-Creates tidy data set called "tidydata.txt" and sort it by Activity, Subject and Description. 
-
-Example
-
-*SubjectID	ActivityID	ActivityDesc	timeBodyAccelerometer-mean()-X	timeBodyAccelerometer-mean()-Y
-*1	1	WALKING	0.277330759	-0.017383819
-*2	1	WALKING	0.276426586	-0.01859492

@@ -6,7 +6,7 @@ This repository contains the R modules associated with Coursera Getting and Clea
 
 ## Repository Objects
 
-* UCI HAR Dataset - Data files downloaded from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+UCI HAR Dataset - Data files downloaded from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 * run_analysis.R - R script which contains the data preparation,  manipulation and tidy data set creation logic. 
 * CodeBook.md - Outline of run_analysis.R script and tidy data set variable description
 * tidydata.txt - Tidy data output based on Coursera project assignment
@@ -18,6 +18,6 @@ This repository contains the R modules associated with Coursera Getting and Clea
 2. Download the Data set and R script and place it in working directory. 
 3. Execute the below commands
 
-* source(run_analysis.R)
-* run_analysis()
-* head -3 "tidydata.txt"
+### source(run_analysis.R)
+### run_analysis()
+### head -3 "tidydata.txt"
